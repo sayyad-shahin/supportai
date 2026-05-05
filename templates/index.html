@@ -8,30 +8,26 @@
 
 <div class="main-container">
 
-    <div class="sidebar">
+  <div class="sidebar">
+    <h2>AI Support</h2>
+    <a href="/">Chatbot</a>
+    <a href="/admin">Dashboard</a>
+    <a href="/logout">Logout</a>
+  </div>
 
-        <h2>AI Support</h2>
-
-        <a href="/">Chatbot</a>
-        <a href="/admin">Dashboard</a>
-        <a href="/logout">Logout</a>
-
+  <div class="chat-section">
+    <div class="chat-header">
+      <h1>Customer Support Assistant</h1>
     </div>
-
-    <div class="chat-section">
-
-        <div class="chat-header">
-            <h1>Customer Support Assistant</h1>
-        </div>
-
-        <div id="chat-box"></div>
-
-        <div class="input-section">
-            <input type="text" id="user-input" placeholder="Ask something...">
-            <button onclick="sendMessage()">Send</button>
-        </div>
-
+    <div id="chat-box"></div>
+    <div class="input-section">
+      <input type="text" id="user-input" placeholder="Ask something...">
+      <button onclick="sendMessage()">Send</button>
     </div>
+  </div>
 
 </div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
 </html>
