@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <h1>Admin Dashboard</h1>
+
+    <div class="card">
+        <h2>Total Chats</h2>
+        <p>{{ total_chats }}</p>
+    </div>
+
+    <a href="/">Back to Chat</a>
+
+</div>
+
+</body>
+</html>
