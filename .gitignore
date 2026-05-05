@@ -1,0 +1,8 @@
+node_modules/ 
+__pycache__/ 
+*.pyc 
+*.db 
+.env 
+backend/.env 
+*.key 
+frontend/node_modules/
