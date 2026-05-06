@@ -41,24 +41,24 @@ const HeadsetIcon = ({ size = 16 }) => (
     <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
   </svg>
 );
-const PackageIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const PackageIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
     <polyline points="3.27,6.96 12,12.01 20.73,6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/>
   </svg>
 );
-const RefundIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const RefundIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <polyline points="1,4 1,10 7,10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/>
   </svg>
 );
-const KeyIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const KeyIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
   </svg>
 );
-const BillingIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const BillingIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/>
   </svg>
 );
@@ -67,70 +67,90 @@ const PlusIcon = () => (
     <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
   </svg>
 );
-const CheckIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+const CheckIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
     <polyline points="20,6 9,17 4,12"/>
   </svg>
 );
-const BoxIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const BoxIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
   </svg>
 );
-const ReceiptIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const ReceiptIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
     <polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
   </svg>
 );
-const RefreshIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const RefreshIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <polyline points="1,4 1,10 7,10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/>
   </svg>
 );
-const PhoneIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const PhoneIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.5 2 2 0 0 1 3.6 1.32h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
   </svg>
 );
-const MailIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const MailIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
     <polyline points="22,6 12,13 2,6"/>
   </svg>
 );
-const TruckIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const TruckIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <rect x="1" y="3" width="15" height="13"/><polygon points="16,8 20,8 23,11 23,16 16,16 16,8"/>
     <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
   </svg>
 );
-const AlertIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const AlertIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
     <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
   </svg>
 );
-const TagIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const TagIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
     <line x1="7" y1="7" x2="7.01" y2="7"/>
   </svg>
 );
-const UserSettingsIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const UserSettingsIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
   </svg>
 );
-const ClockIcon = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+const ClockIcon = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/>
   </svg>
 );
 
+// ── ICON MAP (string key → component) — avoids storing JSX in static arrays ──
+const ICON_MAP = {
+  package:      <PackageIcon />,
+  refund:       <RefundIcon />,
+  key:          <KeyIcon />,
+  billing:      <BillingIcon />,
+  check:        <CheckIcon />,
+  clock:        <ClockIcon />,
+  truck:        <TruckIcon />,
+  box:          <BoxIcon />,
+  receipt:      <ReceiptIcon />,
+  refresh:      <RefreshIcon />,
+  phone:        <PhoneIcon />,
+  mail:         <MailIcon />,
+  alert:        <AlertIcon />,
+  tag:          <TagIcon />,
+  userSettings: <UserSettingsIcon />,
+  headset:      <HeadsetIcon size={13} />,
+  lock:         <LockIcon />,
+};
+
 // ── STYLES ─────────────────────────────────────────────────────────────────
 const css = `
-  
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -425,6 +445,7 @@ const css = `
 `;
 
 // ── RICH MESSAGE RENDERER ──────────────────────────────────────────────────
+// Icons are stored as string keys; resolved here at render time — no objects in data
 function BotMessage({ data }) {
   if (typeof data === "string") return <span>{data}</span>;
   return (
@@ -438,7 +459,7 @@ function BotMessage({ data }) {
               <ul key={i}>
                 {block.items.map((item, j) => (
                   <li key={j}>
-                    <span className="li-icon">{item.icon}</span>
+                    <span className="li-icon">{ICON_MAP[item.icon]}</span>
                     <span dangerouslySetInnerHTML={{ __html: item.text }} />
                   </li>
                 ))}
@@ -455,7 +476,7 @@ function BotMessage({ data }) {
           case "info":
             return (
               <p key={i} className="info-row">
-                {block.icon}
+                {ICON_MAP[block.icon]}
                 <span dangerouslySetInnerHTML={{ __html: block.text }} />
               </p>
             );
@@ -469,7 +490,7 @@ function BotMessage({ data }) {
   );
 }
 
-// ── BOT RULES ──────────────────────────────────────────────────────────────
+// ── BOT RULES — icons stored as STRING KEYS, not JSX ──────────────────────
 const RULES = [
   {
     patterns: ["track", "order status", "where is my order", "where's my order", "my order", "delivery status", "shipped", "shipping status", "order number", "track my"],
@@ -477,7 +498,7 @@ const RULES = [
       [
         { type: "p", text: "To track your order, please share your <strong>order number</strong> (e.g. ORD-12345) and I'll look it up right away." },
         { type: "hr" },
-        { type: "info", icon: <PackageIcon />, text: "You can also track directly via: <strong>My Orders → Track Shipment</strong>" },
+        { type: "info", icon: "package", text: "You can also track directly via: <strong>My Orders → Track Shipment</strong>" },
       ],
       [
         { type: "p", text: "I'd be happy to help track your order. Could you provide your <strong>order ID</strong>?" },
@@ -492,9 +513,9 @@ const RULES = [
         { type: "p", text: "I can help you with a refund. Here is our return policy:" },
         {
           type: "ul", items: [
-            { icon: <CheckIcon />, text: "Items returned within <strong>30 days</strong> of delivery are eligible for a full refund" },
-            { icon: <CheckIcon />, text: "Item must be unused and in its <strong>original packaging</strong>" },
-            { icon: <ClockIcon />, text: "Refunds are processed within <strong>5–7 business days</strong>" },
+            { icon: "check", text: "Items returned within <strong>30 days</strong> of delivery are eligible for a full refund" },
+            { icon: "check", text: "Item must be unused and in its <strong>original packaging</strong>" },
+            { icon: "clock", text: "Refunds are processed within <strong>5–7 business days</strong>" },
           ]
         },
         { type: "hr" },
@@ -521,11 +542,11 @@ const RULES = [
           ]
         },
         { type: "hr" },
-        { type: "info", icon: <MailIcon />, text: "Check your spam folder if the email does not arrive within 2 minutes." },
+        { type: "info", icon: "mail", text: "Check your spam folder if the email does not arrive within 2 minutes." },
       ],
       [
         { type: "p", text: "Password resets are quick. Click <strong>Forgot Password</strong> on the login screen, enter your email, and follow the link sent to your inbox." },
-        { type: "info", icon: <ClockIcon />, text: "Reset links expire after <strong>15 minutes</strong>. Request a new one if needed." },
+        { type: "info", icon: "clock", text: "Reset links expire after <strong>15 minutes</strong>. Request a new one if needed." },
       ],
     ],
   },
@@ -536,9 +557,9 @@ const RULES = [
         { type: "p", text: "For billing inquiries, I can assist with the following:" },
         {
           type: "ul", items: [
-            { icon: <AlertIcon />,   text: "<strong>Unexpected charges</strong> — I'll review and explain" },
-            { icon: <ReceiptIcon />, text: "<strong>Invoices and receipts</strong> — available under Account → Billing History" },
-            { icon: <RefreshIcon />, text: "<strong>Subscription changes</strong> — upgrades, downgrades, or cancellations" },
+            { icon: "alert",   text: "<strong>Unexpected charges</strong> — I'll review and explain" },
+            { icon: "receipt", text: "<strong>Invoices and receipts</strong> — available under Account → Billing History" },
+            { icon: "refresh", text: "<strong>Subscription changes</strong> — upgrades, downgrades, or cancellations" },
           ]
         },
         { type: "p", text: "What specifically can I help you with?" },
@@ -552,8 +573,8 @@ const RULES = [
         { type: "p", text: "I can help you cancel your order. Please note:" },
         {
           type: "ul", items: [
-            { icon: <ClockIcon />, text: "Orders can be cancelled <strong>within 1 hour</strong> of placement at no charge" },
-            { icon: <TruckIcon />, text: "If already shipped, a <strong>free return</strong> can be arranged instead" },
+            { icon: "clock", text: "Orders can be cancelled <strong>within 1 hour</strong> of placement at no charge" },
+            { icon: "truck", text: "If already shipped, a <strong>free return</strong> can be arranged instead" },
           ]
         },
         { type: "hr" },
@@ -568,9 +589,9 @@ const RULES = [
         { type: "p", text: "Estimated delivery times are as follows:" },
         {
           type: "ul", items: [
-            { icon: <TruckIcon />,   text: "<strong>Express:</strong> 1–2 business days" },
-            { icon: <BoxIcon />,     text: "<strong>Standard:</strong> 3–5 business days" },
-            { icon: <PackageIcon />, text: "<strong>International:</strong> 7–14 business days" },
+            { icon: "truck",   text: "<strong>Express:</strong> 1–2 business days" },
+            { icon: "box",     text: "<strong>Standard:</strong> 3–5 business days" },
+            { icon: "package", text: "<strong>International:</strong> 7–14 business days" },
           ]
         },
         { type: "hr" },
@@ -586,8 +607,8 @@ const RULES = [
         { type: "p", text: "For a damaged or incorrect item, we offer:" },
         {
           type: "ul", items: [
-            { icon: <TruckIcon />,  text: "<strong>Free replacement</strong> shipped within 24 hours" },
-            { icon: <RefundIcon />, text: "<strong>Full refund</strong> with no return required" },
+            { icon: "truck",  text: "<strong>Free replacement</strong> shipped within 24 hours" },
+            { icon: "refund", text: "<strong>Full refund</strong> with no return required" },
           ]
         },
         { type: "hr" },
@@ -602,10 +623,10 @@ const RULES = [
         { type: "p", text: "Account changes can be made under <strong>Account → Settings</strong>. Available options include:" },
         {
           type: "ul", items: [
-            { icon: <UserSettingsIcon />, text: "Update your name and email address" },
-            { icon: <LockIcon />,         text: "Change your password" },
-            { icon: <BillingIcon />,      text: "Manage billing and payment methods" },
-            { icon: <AlertIcon />,        text: "Request account deletion" },
+            { icon: "userSettings", text: "Update your name and email address" },
+            { icon: "lock",         text: "Change your password" },
+            { icon: "billing",      text: "Manage billing and payment methods" },
+            { icon: "alert",        text: "Request account deletion" },
           ]
         },
         { type: "p", text: "Is there a specific setting I can guide you to?" },
@@ -619,9 +640,9 @@ const RULES = [
         { type: "p", text: "Here are the current ways to receive a discount:" },
         {
           type: "ul", items: [
-            { icon: <MailIcon />, text: "<strong>Newsletter signup:</strong> 10% off your first order" },
-            { icon: <UserSettingsIcon />, text: "<strong>Referral program:</strong> Give $10, get $10 credit" },
-            { icon: <TagIcon />,  text: "<strong>Seasonal promotions:</strong> Check the homepage banner" },
+            { icon: "mail",         text: "<strong>Newsletter signup:</strong> 10% off your first order" },
+            { icon: "userSettings", text: "<strong>Referral program:</strong> Give $10, get $10 credit" },
+            { icon: "tag",          text: "<strong>Seasonal promotions:</strong> Check the homepage banner" },
           ]
         },
         { type: "hr" },
@@ -636,12 +657,12 @@ const RULES = [
         { type: "p", text: "You can reach our support team through the following channels:" },
         {
           type: "ul", items: [
-            { icon: <MailIcon />,    text: "<strong>Email:</strong> support@company.com" },
-            { icon: <PhoneIcon />,   text: "<strong>Phone:</strong> 1-800-SUPPORT &nbsp;(Mon–Fri, 9AM–6PM)" },
-            { icon: <HeadsetIcon />, text: "<strong>Live chat:</strong> Available on the main website" },
+            { icon: "mail",    text: "<strong>Email:</strong> support@company.com" },
+            { icon: "phone",   text: "<strong>Phone:</strong> 1-800-SUPPORT (Mon–Fri, 9AM–6PM)" },
+            { icon: "headset", text: "<strong>Live chat:</strong> Available on the main website" },
           ]
         },
-        { type: "info", icon: <ClockIcon />, text: "Average response time is <strong>under 2 hours</strong> via email." },
+        { type: "info", icon: "clock", text: "Average response time is <strong>under 2 hours</strong> via email." },
       ],
     ],
   },
@@ -719,11 +740,12 @@ const getSession = () => { try { return JSON.parse(localStorage.getItem(SESS_KEY
 const saveSession= u => u ? localStorage.setItem(SESS_KEY, JSON.stringify(u)) : localStorage.removeItem(SESS_KEY);
 const fmt = iso => { try { return new Date(iso).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); } catch { return ""; } };
 
+// Suggestions — icon as string key
 const SUGGESTIONS = [
-  { text: "Track my order status", icon: <PackageIcon /> },
-  { text: "Request a refund",      icon: <RefundIcon /> },
-  { text: "Reset my password",     icon: <KeyIcon /> },
-  { text: "Billing question",      icon: <BillingIcon /> },
+  { text: "Track my order status", icon: "package" },
+  { text: "Request a refund",      icon: "refund" },
+  { text: "Reset my password",     icon: "key" },
+  { text: "Billing question",      icon: "billing" },
 ];
 
 // ── AUTH PAGE ──────────────────────────────────────────────────────────────
@@ -854,7 +876,7 @@ function ChatPage({ user, onLogout }) {
         <p className="sidebar-label">Quick Help</p>
         {SUGGESTIONS.map(s => (
           <button key={s.text} className="sidebar-item outlined" onClick={() => send(s.text)}>
-            {s.icon}<span>{s.text}</span>
+            {ICON_MAP[s.icon]}<span>{s.text}</span>
           </button>
         ))}
 
@@ -891,7 +913,7 @@ function ChatPage({ user, onLogout }) {
               <div className="chips">
                 {SUGGESTIONS.map(s => (
                   <button key={s.text} className="chip" onClick={() => send(s.text)}>
-                    {s.icon}<span>{s.text}</span>
+                    {ICON_MAP[s.icon]}<span>{s.text}</span>
                   </button>
                 ))}
               </div>
